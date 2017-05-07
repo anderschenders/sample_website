@@ -6,10 +6,12 @@
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none;
+      color: blue;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none;
+      color: blue;">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -54,6 +56,12 @@
         <td>include a paragraph of text</td>
       </tr>
       <tr>
+        <td><code>blockquote</code></td>
+        <td>blockquote</td>
+        <td>indicates long quotations; should contain only block-level elements
+        within it (e.g., p tags), not just plain text</td>
+      </tr>
+      <tr>
         <td><code>table</code></td>
         <td>table</td>
         <td>include a table</td>
@@ -76,10 +84,18 @@
         <td><code>ul</code></td>
         <td>unordered list</td>
         <td>make an unordered list</td>
+      </tr>
       <tr>
         <td><code>li</code></td>
         <td>list item (for both ordered and unordered)</td>
         <td>include a list item</td>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>division</td>
+        <td>defines a division or section; used to group block-elements to
+        format them with CSS</td>
+      </tr>
     </table>
 
     <header>
@@ -100,14 +116,14 @@
         <td><code>em</code></td>
         <td>emphasized</td>
         <td>make emphasized text</td>
-        <td><code>&lt;em&gt; technical sophistication&lt;/em&gt;</code></td>
+        <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
         <td><em>technical sophistication</em></td>
       </tr>
       <tr>
         <td><code>strong</code></td>
         <td>strong</td>
         <td>make strong text</td>
-        <td><code>&lt;strong&gt; so many bunnies&lt;/strong&gt;</code>
+        <td><code>&lt;strong&gt;so many bunnies&lt;/strong&gt;</code>
         </td>
         <td><strong>so many bunnies!</strong></td>
       </tr>
@@ -132,7 +148,58 @@
           </code>
         </td>
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+      </tr>
+      <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>used to group inline-elements in a document</td>
+        <td><code>&lt;span&gt;grouped together&lt;/span&gt;</code></td>
+        <td><span>grouped together</span></td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>break</td>
+        <td>inserts a single line break; an empty tag, has no end tag</td>
+        <td><code>&lt;br&gt;</code></td>
+      </tr>
     </table>
 
+    <header>
+      <h2>Document Tags</h2>
+    </header>
+
+    <table>
+      <tr>
+        <div>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Purpose</th>
+        </div>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>tells your web browser that a page with HTML is coming up</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>includes the title of your web page, search terms, and others</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>begins after the HEAD, ends just before the ending HTML tag</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>the title that will show on broswer tab</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>provides metadata about HTML doc, not displayed on page</td>
+      </tr>
   </body>
 </html>
